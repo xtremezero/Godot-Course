@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mastering Godot 4 — Interactive Curriculum (340+ Slides)</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div id="app">
+  <div id="prog"><span id="prog-fill"></span></div>
+
+  <main id="stage" aria-live="polite"></main>
+
+  <footer id="bar" class="chrome">
+    <div id="bar-left"><span id="crumb">Godot 4 Curriculum</span></div>
+    <div id="bar-mid">
+      <button id="btn-prev"  class="hbtn" title="Previous slide (← / PgUp)">&#8249; Prev</button>
+      <button id="btn-contents" class="hbtn" title="Contents &amp; search (C)">&#9776; Contents</button>
+      <button id="btn-help" class="hbtn" title="Keyboard shortcuts (?)">?</button>
+      <button id="btn-next"  class="hbtn" title="Next slide (→ / Space)">Next &#8250;</button>
+    </div>
+    <div id="bar-right"><span id="counter">– / –</span></div>
+  </footer>
+
+  <aside id="drawer" aria-label="Slide contents">
+    <div class="dr-head">
+      <input id="search" type="search" placeholder="Search 300+ slides…" autocomplete="off" spellcheck="false">
+      <button id="dr-close" class="hbtn" title="Close (Esc)">&#10005;</button>
+    </div>
+    <div id="toc"></div>
+  </aside>
+
+  <div id="help" class="modal" aria-hidden="true">
+    <div class="mcard">
+      <h3>Keyboard &amp; Controls</h3>
+      <table class="tbl">
+        <tr><td><span class="kbd">&#8594;</span> <span class="kbd">&#8595;</span> <span class="kbd">Space</span> <span class="kbd">PgDn</span></td><td>Next slide</td></tr>
+        <tr><td><span class="kbd">&#8592;</span> <span class="kbd">&#8593;</span> <span class="kbd">PgUp</span> <span class="kbd">Backspace</span></td><td>Previous slide</td></tr>
+        <tr><td><span class="kbd">Home</span> / <span class="kbd">End</span></td><td>First / last slide</td></tr>
+        <tr><td><span class="kbd">C</span></td><td>Contents drawer &amp; search</td></tr>
+        <tr><td><span class="kbd">F</span></td><td>Fullscreen</td></tr>
+        <tr><td><span class="kbd">?</span></td><td>This help</td></tr>
+        <tr><td><span class="kbd">Esc</span></td><td>Close drawer / help</td></tr>
+        <tr><td>Swipe left / right</td><td>Next / previous (touch)</td></tr>
+        <tr><td><span class="kbd">&#8220;Copy&#8221;</span> on any code block</td><td>Copies the snippet to your clipboard</td></tr>
+        <tr><td>URL hash (e.g. <code>#42</code>)</td><td>Deep-link to slide 42 — shareable</td></tr>
+      </table>
+      <p class="mnote">Tip: print (Ctrl+P) exports every slide as its own page. The deck runs fully offline.</p>
+      <button id="help-close" class="hbtn">Close</button>
+    </div>
+  </div>
+
+  <noscript><div style="position:fixed;inset:0;background:#0b0f17;color:#dbe4f3;display:flex;align-items:center;justify-content:center;font-family:sans-serif;text-align:center;padding:2em">This interactive curriculum requires JavaScript. Please enable it and reload.</div></noscript>
+</div>
+
+<script src="assets/slides/ch01.js"></script>
+<script src="assets/slides/ch02.js"></script>
+<script src="assets/slides/ch03.js"></script>
+<script src="assets/slides/ch04.js"></script>
+<script src="assets/slides/ch05.js"></script>
+<script src="assets/slides/ch06.js"></script>
+<script src="assets/slides/ch07.js"></script>
+<script src="assets/slides/ch08.js"></script>
+<script src="assets/slides/ch09.js"></script>
+<script src="assets/slides/ch10.js"></script>
+<script src="assets/slides/ch11.js"></script>
+<script src="assets/slides/ch12.js"></script>
+<script src="assets/slides/ch13.js"></script>
+<script src="assets/slides/ch14.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
